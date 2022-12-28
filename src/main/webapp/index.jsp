@@ -6,7 +6,7 @@
 </head>
 <body>
 This is a jsp render Test!
-<p><${name}</p>
+<p>${name}</p>
 
 <form action="/test" method="POST">
     <label for="name">Name:</label>
